@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Single page application</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="src/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="src/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark my-hight">
+        <h2 class="navbar-text my-padding1">MySite</h2>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item" id="my-profile">
+              <a class="nav-link">PROFILE</a>
+            </li>
+
+            <li class="nav-item" id="my-game">
+              <a class="nav-link">POKEMON</a>
+              
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <div id="my-profile-div">
+        <h1 class="mt-5">My profile</h1>
+      </div>
+
+      <div id="my-game-div" style="display: none;">
+        <h1 class="mt-5">Pokemon characteristics</h1>
+        <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Parameters</th>
+                  <th scope="col">Values</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Name</th>
+                  <td id="name"> </td>
+                </tr>
+                <tr>
+                  <th scope="row">Base experience</th>
+                  <td id="base_experience"> </td>
+                </tr>
+                <tr>
+                  <th scope="row">Weight</th>
+                  <td id="weight"> </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+            <img id="img-pokemon" src="..." alt="IMAGE" class="rounded img-thumbnail">
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Copyright Pascal</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="src/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="src/popper.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"
+              integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+              crossorigin="anonymous"></script>
+<!--    <script src="src/my1.js"></script>-->
+<!--    <script src="src/my2.js"></script>-->
+  <script src="dist/bundle.js"></script>
+</body></html>
